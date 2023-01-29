@@ -57,8 +57,7 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder> {
      *
      * @param holder   The viewholder into which the data should be put.
      * @param position The adapter position.
-     */
-    @Override
+     */@Override
     public void onBindViewHolder(SportsAdapter.ViewHolder holder,
                                  int position) {
         // Get current sport.

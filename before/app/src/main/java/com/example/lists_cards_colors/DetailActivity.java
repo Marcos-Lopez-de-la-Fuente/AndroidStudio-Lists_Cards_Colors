@@ -1,13 +1,13 @@
 package com.example.lists_cards_colors;
 
 import android.os.Bundle;
-//import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import androidx.fragment.app.FragmentActivity;
 import com.example.lists_cards_colors.R;
 
 /***

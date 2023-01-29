@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.view.View;
 
-import com.example.materialmeresource.R;
+import com.example.lists_cards_colors.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
