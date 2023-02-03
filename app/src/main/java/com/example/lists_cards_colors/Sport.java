@@ -11,7 +11,7 @@ public class Sport {
      * Constructor for the Sport data model.
      *
      * @param title The name if the sport.
-     * @param info Information about the sport.
+     * @param info  Information about the sport.
      */
     public Sport(String title, String info, int imageResource) {
         this.title = title;
@@ -40,7 +40,6 @@ public class Sport {
     public int getImageResource() {
         return imageResource;
     }
-
 
 
 }
