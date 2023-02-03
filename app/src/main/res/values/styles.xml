@@ -9,6 +9,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="SportsTitle" parent="TextAppearance.AppCompat.Display2" />
+
+    <style name="SportsDetailTitle" parent="TextAppearance.AppCompat.Display1" />
+
+    <style name="SportsDetailText" parent="TextAppearance.AppCompat.Subhead" />
+
 </resources>
 
 

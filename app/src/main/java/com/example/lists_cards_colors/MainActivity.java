@@ -53,13 +53,19 @@ public class MainActivity extends AppCompatActivity {
         // Get the data.
         initializeData();
 
+
+        int swipeDirs;
+        if (gridColumnCount > 1) {
+            swipeDirs = 0;
+        } else {
+            swipeDirs = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+        }
+
         // Helper class for creating swipe to dismiss and drag and drop
         // functionality.
-        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper
-                .SimpleCallback(
-                ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT |
-                        ItemTouchHelper.DOWN | ItemTouchHelper.UP,
-                ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(
+                ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT | ItemTouchHelper.DOWN | ItemTouchHelper.UP, swipeDirs) {
+
             /**
              * Defines the drag and drop functionality.
              *
